@@ -1,8 +1,8 @@
 export default function QuoteRequestForm() {
   return (
     <section id="contact" className="py-10 px-6 bg-gray-800">
-      <h3 className="text-2xl font-bold text-center mb-6">Contact Us</h3>
-      <p className="text-center text-md text-bg-sky-50 mb-6 font-medium">
+      <h3 className="text-lg md:text-2xl font-bold text-center mb-6">Contact Us</h3>
+      <p className="text-center text-xs md:text-md text-bg-sky-50 mb-6 font-medium">
         Interested in scheduling a ride, or have a general question?
         <br />
         <br />

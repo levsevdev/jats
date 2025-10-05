@@ -31,7 +31,7 @@ export default function Hero() {
         />
       </svg>
       <div className="relative hero-content text-center text-neutral-content z-10">
-        <div className="w-full px-10 py-20 md:p-30">
+        <div className="w-full px-10 py-7 md:p-30">
           <h2 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
             Reliable Transportation, Right When You Need It
           </h2>

@@ -97,7 +97,7 @@ export default function ServicesList() {
   ];
 
   return (
-    <div className="relative p-16 overflow-hidden">
+    <div className="relative px-10 py-7 md:p-16 overflow-hidden">
       <div className="absolute inset-0 bg-[url('./assets/pexels-shootsaga-30944945.jpg')] bg-center bg-cover opacity-45"></div>
       <div className="relative z-10">
         <h3 className="text-4xl text-white text-shadow-sm font-bold text-center mb-6 ">

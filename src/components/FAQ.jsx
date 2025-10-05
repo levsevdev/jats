@@ -93,7 +93,7 @@ export default function FAQPage() {
 
   return (
     <section id="faq" className="py-10 px-6 bg-gray-800 h-full">
-      <h3 className="text-2xl font-bold text-center mb-6">FAQ</h3>
+      <h3 className="text-lg md:text-2xl font-bold text-center mb-6">FAQ</h3>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <Accordion key={index} question={faq.question} answer={faq.answer} />
@@ -134,12 +134,12 @@ function Accordion({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border rounded-lg overflow-hidden shadow-sm w-3/4 mx-auto">
+    <div className="border rounded-lg overflow-hidden shadow-sm w-full md:w-3/4 mx-auto">
       <button
         className="w-full flex justify-between items-center p-4 bg-gray-100 hover:bg-gray-200 text-left"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="text-sm font-semibold text-gray-500">{question}</span>
+        <span className="text-xs md:text-sm font-semibold text-gray-500">{question}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -158,7 +158,7 @@ function Accordion({ question, answer }) {
         </svg>
       </button>
       {isOpen && (
-        <div className="px-18 py-6 text-gray-900 font-semibold bg-white border-t">
+        <div className="p-4 md:px-18 text-xs md:py-6 text-gray-900 font-semibold bg-white border-t">
           {typeof answer === "string" ? <p>{answer}</p> : answer}
         </div>
       )}
