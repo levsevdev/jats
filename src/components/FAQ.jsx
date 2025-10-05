@@ -19,6 +19,10 @@ export default function FAQPage() {
         "We operate Monday through Saturday, from 6 AM to 6 PM. Hours and availability are subject to change for customer requests, holidays, and inclement weather.",
     },
     {
+      question: "Can you accommodate passengers that use mobility aids (wheelchairs, walkers, etc.)?",
+      answer: "Yes, our vehicle has space to store mobility aids such as walkers, rollators, and wheelchairs. Please note that passengers must be able to transfer independently to and from the vehicle seat."
+    },
+    {
       question: "How can I contact you to schedule a ride?",
       answer: (
         <div className="mt-4 flex flex-row justify-evenly">
@@ -158,7 +162,7 @@ function Accordion({ question, answer }) {
         </svg>
       </button>
       {isOpen && (
-        <div className="p-4 md:px-18 text-xs md:py-6 text-gray-900 font-semibold bg-white border-t">
+        <div className="p-4 md:px-18 text-x md:text-md md:py-6 text-gray-900 font-semibold bg-white border-t">
           {typeof answer === "string" ? <p>{answer}</p> : answer}
         </div>
       )}
