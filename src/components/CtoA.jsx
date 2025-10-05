@@ -79,7 +79,7 @@ export default function CallToAction() {
               />
             </svg>
           </Link>
-          <p className="text-center text-xs font-medium mt-1">FAQ</p>
+          <p className="text-center text-xs font-medium mt-1">Questions</p>
         </div>
       </div>
     </div>
