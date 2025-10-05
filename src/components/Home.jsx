@@ -2,6 +2,7 @@ import Schedule from "./Schedule";
 import ServicesList from "./ServicesList";
 import Hero from "./Hero";
 import CtoA from "./CtoA";
+import Slideshow from "./Slideshow";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <CtoA />
         <Schedule />
       </div>
+        <Slideshow />
     </>
   );
 }
