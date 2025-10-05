@@ -100,10 +100,10 @@ export default function ServicesList() {
     <div className="relative px-10 py-7 md:p-16 overflow-hidden">
       <div className="absolute inset-0 bg-[url('./assets/pexels-shootsaga-30944945.jpg')] bg-center bg-cover opacity-45"></div>
       <div className="relative z-10">
-        <h3 className="text-4xl text-white text-shadow-sm font-bold text-center mb-6 ">
+        <h3 className="text-xl md:text-4xl text-white text-shadow-sm font-bold text-center mb-6 ">
           Transportation Services We Offer
         </h3>
-        <p className="text-center text-white text-shadow-sm text-lg mb-6 font-bold">
+        <p className="text-center text-white text-shadow-sm text-xs md:text-lg mb-6 font-bold">
           Whether it's for health, errands, or fun, we've got you covered!
         </p>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-xl mx-auto">

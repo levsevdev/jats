@@ -32,13 +32,13 @@ export default function Hero() {
       </svg>
       <div className="relative hero-content text-center text-neutral-content z-10">
         <div className="w-full px-10 py-7 md:p-30">
-          <h2 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
+          <p className="text-3xl md:text-5xl font-bold text-white drop-shadow-lg">
             Reliable Transportation, Right When You Need It
-          </h2>
-          <h4 className="text-md py-6 font-bold text-white drop-shadow-md">
+          </p>
+          <p className="text-xs md:text-lg py-6 font-bold text-white drop-shadow-md">
             Serving Orangeburg, Calhoun, and Bamberg Counties with safe,
             dependable rides!
-          </h4>
+          </p>
           <div className="flex flex-row w-full justify-center gap-4">
             <Link to="/contact" className="hero-btn">
               Schedule a Ride

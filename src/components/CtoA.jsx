@@ -4,7 +4,7 @@ export default function CallToAction() {
   return (
     <div className="flex flex-col justify-center align-middle bg-sky-500 text-white text-center w-full p-10">
       <h2 className="text-xl font-bold mb-4">Ready to Ride?</h2>
-      <p className="mb-6 font-medium">
+      <p className="text-xs mb-6 font-medium">
         Contact us today and schedule your next trip with confidence.
       </p>
       <div className="flex flex-row justify-evenly">
@@ -79,7 +79,7 @@ export default function CallToAction() {
               />
             </svg>
           </Link>
-          <p className="text-center text-xs font-medium mt-1">Questions</p>
+          <p className="text-center text-xs font-medium mt-1">FAQ</p>
         </div>
       </div>
     </div>
